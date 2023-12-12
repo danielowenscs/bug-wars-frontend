@@ -13,8 +13,8 @@ RUN npm install
 # Copy the entire project to the working directory
 COPY . .
 
-# Expose port 8080 (or the port your Vue.js app is configured to run on)
-EXPOSE 8080
+# Expose port 3000 (or the port your Vue.js app is configured to run on)
+EXPOSE 3000
 
 # Start the Vue.js application
 CMD ["npm", "run", "serve"]
